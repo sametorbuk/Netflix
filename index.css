@@ -204,6 +204,14 @@ div img {
 
     }
 
+    .movie-info p {
+        display: none;
+    }
+
+    .movie-info h1 {
+        margin-left: 7rem;
+    }
+
     .left i {
         display: flex;
         order: -1;
@@ -218,8 +226,9 @@ div img {
 
     
     .buttons-info button {
-        padding: 1px 4px;
+        padding: 1rem;
         font-size: 0.75rem;
+        margin-left: 5rem;
        
     }
 
@@ -228,9 +237,7 @@ div img {
         margin-left: 0;
     }
 
-    .buttons-info :nth-child(2) {
-        margin-left: 10px;
-    }
+    
 
     .right-menu {
         margin-right: 0;
