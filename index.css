@@ -9,7 +9,7 @@ body {
 
 }
 
-.left img {
+.netflix-log {
     mix-blend-mode: multiply;
     width: 120px;
 }
@@ -33,7 +33,10 @@ body {
     
 }
 
-
+.left i {
+    color: white;
+    display: none;
+}
 
 div img {
     width: 100px;
@@ -75,10 +78,7 @@ div img {
     margin-right: 20px ;
  }
 
- .left img {
-    background-color: transparent;
- }
-
+ 
  .movie-info {
     text-align: left;
     margin-left: 5px;
@@ -195,6 +195,26 @@ div img {
     .left nav a {
         display: none;
     }
+    .right-menu nav {
+        display: none;
+    }
+
+   .right-menu i {
+        display: flex;
+
+    }
+
+    .left i {
+        display: flex;
+        order: -1;
+        margin-left: 20px;
+    }
+
+    .netflix-log {
+        margin-left: 90px;
+    }
+    
+    
 
     
     .buttons-info button {
@@ -231,6 +251,10 @@ div img {
         margin-bottom: 17px;
     }
 
+    .netflix-log {
+        margin-left: 237px;
+    }
+
    
 
     .left nav a {
@@ -248,6 +272,3 @@ div img {
 
 }
 
-
-
-    
