@@ -249,7 +249,7 @@ div img {
     
 
     .right-menu {
-        margin-right: 2rem;
+        margin-right: 1rem;
     }
 
 
@@ -258,8 +258,9 @@ div img {
 
 
 @media (orientation: landscape) and (max-width: 768px) {
-    .buttons-info p {
-        font-size: 0.5rem;
+        
+    .buttons-info {
+        margin-left: 9rem;
     }
 
     .buttons-info button {
@@ -285,7 +286,7 @@ div img {
     }
 
     .right-menu {
-        margin-right: 4rem;
+        margin-right: 1rem;
     }
 }
 
