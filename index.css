@@ -207,11 +207,11 @@ div img {
     .left i {
         display: flex;
         order: -1;
-        margin-left: 20px;
+        margin-left: 1.3rem;
     }
 
     .netflix-log {
-        margin-left: 90px;
+        margin-left: 5.5rem;
     }
     
     
@@ -252,13 +252,16 @@ div img {
     }
 
     .netflix-log {
-        margin-left: 237px;
+        margin-left: 14rem;
     }
 
    
 
     .left nav a {
         display: none ;
+    }
+    .right-menu nav {
+        display: none;
     }
 }
 
@@ -269,6 +272,7 @@ div img {
     .buttons-info :nth-child(2) {
         margin-left: 0.8rem;
      }
+         
 
 }
 
