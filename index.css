@@ -223,6 +223,7 @@ div img {
     }
     
     
+    
 
     
     .buttons-info button {
@@ -230,6 +231,11 @@ div img {
         font-size: 0.75rem;
         margin-left: 5rem;
        
+    }
+    
+    .buttons-info {
+        display: flex;
+        justify-content: space-around;
     }
 
     .movie-info h1 {
