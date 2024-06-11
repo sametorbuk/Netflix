@@ -221,7 +221,13 @@ div img {
     .netflix-log {
         margin-left: 5.5rem;
     }
-    
+
+
+
+    .buttons-info {
+        margin-left: 0rem;
+    }
+
     
     
 
@@ -233,20 +239,17 @@ div img {
        
     }
     
-    .buttons-info {
-        display: flex;
-        justify-content: space-around;
-    }
+   
 
     .movie-info h1 {
         color: rgb(255, 255, 255);
-        margin-left: 0;
+        margin-left: 7rem;
     }
 
     
 
     .right-menu {
-        margin-right: 0;
+        margin-right: 2rem;
     }
 
 
@@ -267,6 +270,10 @@ div img {
     .netflix-log {
         margin-left: 14rem;
     }
+    .movie-info h1 {
+        color: rgb(255, 255, 255);
+        margin-left: 15.5rem;
+    }
 
    
 
@@ -275,6 +282,10 @@ div img {
     }
     .right-menu nav {
         display: none;
+    }
+
+    .right-menu {
+        margin-right: 4rem;
     }
 }
 
