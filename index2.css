@@ -99,6 +99,7 @@ body {
    font-size: 9px; 
      
    border-radius: 7px;
+   border: white;
    
 }
 
@@ -188,12 +189,13 @@ body {
 
     .left-menu i {
         display: flex;
-        order: -1;
+        
         margin-left: 1.3rem;
     }
 
     .netflix-log {
         margin-left: 5.5rem;
+        order: 1;
     }
 
 
