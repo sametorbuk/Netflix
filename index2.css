@@ -201,23 +201,25 @@ body {
     .buttons-info {
         margin-left: 0rem;
     }
+
+    .buttons-info button {
+        padding: 1rem;
+        font-size: 0.75rem;
+        margin-left: 5rem;
+       
+    }
+    
+    .movie-info h1 {
+        color: rgb(255, 255, 255);
+        margin-left: 7rem;
+    }
+    
+    .right-menu {
+        margin-right: 1rem;
+    }
 }
 
-.buttons-info button {
-    padding: 1rem;
-    font-size: 0.75rem;
-    margin-left: 5rem;
-   
-}
 
-.movie-info h1 {
-    color: rgb(255, 255, 255);
-    margin-left: 7rem;
-}
-
-.right-menu {
-    margin-right: 1rem;
-}
 
 @media (orientation: landscape) and (max-width: 768px) {
         
