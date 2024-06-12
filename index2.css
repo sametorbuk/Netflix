@@ -9,11 +9,6 @@ body {
 
 }
 
-.netflix-log {
-    mix-blend-mode: multiply;
-    width: 120px;
-}
-
 .first-background {
     background-image: url(https://cdn.mos.cms.futurecdn.net/mwsS5ToB5dnPqW2XVf6coU-1200-80.jpg);
     background-size: cover; 
@@ -27,6 +22,10 @@ body {
      
    }
 
+   .netflix-log {
+    mix-blend-mode: multiply;
+    width: 120px;
+}
 .container {
     display: flex;
     margin-bottom: 150px;
@@ -38,10 +37,7 @@ body {
     display: none;
 }
 
-
-
-
- .right-menu {
+.right-menu {
     display: flex;
     justify-content: space-between;
     flex: 3;
@@ -53,16 +49,15 @@ body {
     padding-right: 15px;
     
  }
- 
- .left-menu {
-   display: flex;
-    flex: 19;
-    align-items: center;
-    
 
- }
+ .left-menu {
+    display: flex;
+     flex: 19;
+     align-items: center;
+     
  
- .left-menu nav a {
+  }
+  .left-menu nav a {
     color: rgb(215, 214, 214);
     text-decoration: none;
     margin-left: 10px;
@@ -76,7 +71,7 @@ body {
     margin-right: 20px ;
  }
 
- 
+
  .movie-info {
     text-align: left;
     margin-left: 5px;
@@ -91,42 +86,40 @@ body {
  }
 
  .buttons-info {
-     margin-left: 25px;
-     
+    margin-left: 25px;
     
+   
 }
 
 .buttons-info button {
     
-     background-color: rgba(205, 205, 205, 0.5);
-     color: white; 
-    padding: 5px 10px; 
-    font-size: 9px; 
-      
-    border-radius: 7px;
-    
+    background-color: rgba(205, 205, 205, 0.5);
+    color: white; 
+   padding: 5px 10px; 
+   font-size: 9px; 
+     
+   border-radius: 7px;
+   
 }
- .buttons-info :nth-child(2) {
+
+
+.buttons-info :nth-child(2) {
     margin-left: 20px;
  }
+
 
  .buttons-info p {
     width: 200px;
     margin-left: -20px;
  }
 
- 
 
  h3 {
     margin-bottom: 6px;
     color: rgb(242, 245, 247);
  }
 
- 
-
- 
-
-.netflix-originals,
+ .netflix-originals,
  .top-rated,
  .action-movies,
  .for-you,
@@ -135,9 +128,6 @@ body {
     display: flex;
     overflow-x: auto;
  }
-
-
- 
 
  .netflix-originals,
  .top-rated ,
@@ -163,8 +153,6 @@ body {
    
  }
 
-
-
  ::-webkit-scrollbar {
     width: 6px;
     background-color: #222020; 
@@ -175,7 +163,6 @@ body {
     border-radius: 6px; 
     
 }
-
 
 @media  (max-width: 768px) {
  
@@ -214,35 +201,23 @@ body {
     .buttons-info {
         margin-left: 0rem;
     }
-
-    
-    
-
-    
-    .buttons-info button {
-        padding: 1rem;
-        font-size: 0.75rem;
-        margin-left: 5rem;
-       
-    }
-    
-   
-
-    .movie-info h1 {
-        color: rgb(255, 255, 255);
-        margin-left: 7rem;
-    }
-
-    
-
-    .right-menu {
-        margin-right: 2rem;
-    }
-
-
-
 }
 
+.buttons-info button {
+    padding: 1rem;
+    font-size: 0.75rem;
+    margin-left: 5rem;
+   
+}
+
+.movie-info h1 {
+    color: rgb(255, 255, 255);
+    margin-left: 7rem;
+}
+
+.right-menu {
+    margin-right: 1rem;
+}
 
 @media (orientation: landscape) and (max-width: 768px) {
         
@@ -276,15 +251,3 @@ body {
         margin-right: 1rem;
     }
 }
-
-
-
-@media (min-width:769) and (max-width:1024) {
-   
-    .buttons-info :nth-child(2) {
-        margin-left: 0.8rem;
-     }
-         
-
-}
-
